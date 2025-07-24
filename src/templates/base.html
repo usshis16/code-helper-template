@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ cookiecutter.project_name }}</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome to {{ cookiecutter.project_name }}</h1>
+  </header>
+
+  <main>
+    <p>This is a reusable template powered by {{ cookiecutter.default_language }}.</p>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>Created by {{ cookiecutter.author_name }} | Vibe Mode: {{ cookiecutter.include_vibe_mode }}</p>
+  </footer>
+</body>
+</html>
