@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "🚀 Starting project setup..."
+
+# Initialise Git (if not already done)
+git init
+
+# Install dependencies (adjust for your stack)
+npm install         # For Node.js
+# pip install -r requirements.txt  # Uncomment for Python
+
+# Create initial commit
+git add .
+git commit -m "Initial commit with scaffold structure"
+
+echo "✅ Setup complete. You're good to go!"
